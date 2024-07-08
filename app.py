@@ -69,6 +69,16 @@ with tabs[1]:
     
     Con estos datos, podrás realizar tu consulta y ***recibirás una respuesta de un agente de IA especializado en medio ambiente basado en la normativa argentina vigente***.
     """)
+    
+    st.divider()
+    
+    st.markdown("""
+    ***Ejemplos de Consultas***
+    • ¿Cómo debo separar y gestionar los residuos en mi hogar según las normativas locales?          
+    • ¿Cuáles son las mejores prácticas para conservar agua en áreas urbanas?  
+    • ¿Qué incentivos existen para la instalación de paneles solares en mi provincia?  
+    • ¿Cómo puedo reciclar pilas?
+    """)
 
 # Solapa de Consulta
 with tabs[2]:

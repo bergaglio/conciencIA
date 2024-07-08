@@ -9,8 +9,7 @@ from IPython.display import Markdown
 
 model = genai.GenerativeModel(model_name='gemini-1.5-flash')
 
-load_dotenv()
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 ##########################################################
 genai.configure(api_key=GOOGLE_API_KEY)

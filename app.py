@@ -73,7 +73,7 @@ with tabs[1]:
     st.divider()
     
     st.markdown("""
-    ***Ejemplos de Consultas***
+    ***Ejemplos de Consultas***  
     • ¿Cómo debo separar y gestionar los residuos en mi hogar según las normativas locales?          
     • ¿Cuáles son las mejores prácticas para conservar agua en áreas urbanas?  
     • ¿Qué incentivos existen para la instalación de paneles solares en mi provincia?  

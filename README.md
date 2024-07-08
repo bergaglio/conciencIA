@@ -1,4 +1,4 @@
-# concienc(IA)
+# ECOconcienc(IA)
 
 Una simple aplicación diseñada para proporcionar información sobre cuidados del medio ambiente basada en las leyes vigentes de Argentina.  
 
@@ -12,7 +12,9 @@ Una simple aplicación diseñada para proporcionar información sobre cuidados d
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Get an API KEY from Google Gemini and set up it as Secret in Streamlit / Settings / Secrets as GOOGLE_API_KEY="your_api_key"
+
+3. Run the app
 
    ```
    $ streamlit run app.py

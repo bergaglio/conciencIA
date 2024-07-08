@@ -60,7 +60,7 @@ with tabs[0]:
 # Solapa Como funciona
 with tabs[1]:
     st.header("Cómo funciona?")
-    st.divider()
+
     st.markdown("""
     La aplicación te solicitara ***unos pocos datos personales*** con el fin de conocerte un poco más y podeere bridarte una mejor respuesta.  Los datos que te solicitaremos son tu edad, sexo y si realizás algún tipo de reciclado.  
     Con estos datos, podrás realizar tu consulta y recibirás una respuesta de un agente de IA especializado en medio ambiente basado en la normativa argentina vigente.                

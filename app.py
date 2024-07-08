@@ -58,7 +58,7 @@ with tabs[0]:
     st.divider()
 
 # Solapa Como funciona
-with tabs[0]:
+with tabs[1]:
     st.header("Cómo funciona?")
     st.divider()
     st.markdown("""

@@ -37,18 +37,18 @@ def consultaGemini(contexto, consulta, edad, sexo, metodo):
 ################################################################################################
 # Título de la aplicación
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png", width=200)
-st.header('concienc(IA)', divider='rainbow')
+st.header('ECOconcienc(IA)', divider='rainbow')
 st.subheader("Un espacio para asesorarte sobre medio ambiente.")
 st.write("por Javier Bergaglio")
 
 # Crear solapas
-tabs = st.tabs(["Presentación", "Cómo funciona?", "Consulta"])
+tabs = st.tabs(["Presentación", "Cómo funciona?", "Tu consulta"])
 
 # Solapa de Presentación
 with tabs[0]:
     st.header("Presentación")
-    st.write("""
-    Bienvenido a concienc(IA). Esta aplicación está diseñada para proporcionar información sobre cuidados del medio ambiente basada en las leyes vigentes de Argentina.  
+    st.markdown("""
+    Bienvenido a ***ECOconcienc(IA)***. Esta aplicación está diseñada para proporcionar información sobre cuidados del medio ambiente basada en las leyes vigentes de Argentina.  
     La aplicación te responderá con información precisa y clara, adaptada a tu contexto y necesidades.  
                 
     """)
